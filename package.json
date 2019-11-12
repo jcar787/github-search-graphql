@@ -1,5 +1,5 @@
 {
-  "name": "github-search",
+  "name": "github-search-graphql",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

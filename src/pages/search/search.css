@@ -30,6 +30,9 @@
 
 .container #next {
     color: blue;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .container #next:hover, .container #next:active {
@@ -93,5 +96,6 @@
 
     .list-container {
         margin-top: 8px;
+        margin-left: 3%;
     }
 }

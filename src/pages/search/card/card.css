@@ -1,8 +1,9 @@
 .repo-container {
-    display: block;
+    display: flex;
+    flex-flow: column;
     width: 75%;
     margin: auto 15%;
-    height: 150px;
+    height: 200px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     -webkit-transition: all 1s ease-in-out;
@@ -11,6 +12,8 @@
 
 .card {
     position: absolute;
+    display: flex;
+    flex-flow: column;
     width: 100%;
     height: 100%;
 }
@@ -19,8 +22,12 @@
     font-family: 'Rubik', serif;
 }
 
-.card a, .card h4, .card p {
+.card a, .card h4, .card p, .card div {
     font-family: 'Noto Serif', serif;
+}
+.card a {
+    font-weight: 300;
+    font-size: 16px;
 }
 .card-title {
     display: flex;
@@ -48,7 +55,11 @@
 @media only screen and (min-width: 600px) {
     .repo-container {
         display: block;
-        width: 15%;
+        width: 40%;
         margin-left: 3%;
+        height: 125px;
+        border-bottom: #E0E0E0 1px solid;
+        margin-top: 5px;
+        padding: 10px;
     }
 }
