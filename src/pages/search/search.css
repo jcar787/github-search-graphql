@@ -30,7 +30,7 @@
 
 .container #next {
     color: blue;
-    margin-top: 25px;
+    margin: 25px auto;
     font-size: 24px;
     font-weight: 800;
 }
@@ -67,6 +67,8 @@
 
 .spin {
     animation: spin 2s infinite linear;
+    margin: 10px auto;
+    font-size: 25px;
 }
 
 @keyframes spin {
@@ -97,5 +99,10 @@
     .list-container {
         margin-top: 8px;
         margin-left: 3%;
+    }
+
+    .spin {
+    margin: 20px auto;
+    font-size: 50px;
     }
 }
